@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="categories.css">
+    <meta charset="UTF-8">
+    <title>Categories</title>
+</head>
+<body>
+  <div class="header">
+<div class="navbar">
+    <p>Logo</p>
+    <ul>
+<li><a href="interface.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="log.html">Logs</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+    </ul>
+</div>
+<div class="navbar-b">
+    <div class="dropdown">
+        <select >
+<option value="1">Categories</option>
+<option value="2">New</option>
+<option value="3">Rotten Pieces</option>
+        </select>
+    </div>
+    <div class="search">
+        <input type="search" placeholder="Search...">
+        <ion-icon name="search-outline"></ion-icon>
+    </div>
+    <div class="cart"><ion-icon name="cart-outline"></ion-icon><p>0</p></div>
+</div>
+  </div>
+  <div class="container">
+    <div id="root"></div>
+    <div class="sidebar"><P>All Categories</P></div>
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="cart.js"></script>
+</body>
+</html>

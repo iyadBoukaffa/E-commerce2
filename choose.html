@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Choose page</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='choose.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+ <div class="box">
+<a href="logadmin.html" class="button">Admin</a>
+<a href="log.html" class="button">Buyer</a>
+<a href="logseller.html" class="button">Seller</a>
+<a href="logrepairer.html" class="button">Repairer</a>
+
+
+</div>
+ </div>   
+ <div class="colors">
+<span class="active" onclick="changeColor('#1dd1a1')" style="--clr:#1dd1a1;"></span>
+<span onclick="changeColor('#ff6b6b')" style="--clr:#ff6b6b;"></span>
+<span onclick="changeColor('#2e86de')" style="--clr:#2e86de;"></span>
+<span onclick="changeColor('#f368e0')" style="--clr:#f368e0;"></span>
+<span onclick="changeColor('#ff9f43')" style="--clr:#ff9f43;"></span>
+ </div>
+ <script>
+    let btn=document.getElementById('btn');
+    let txt =document.getElementById('txt');
+function changeColor(color){
+    document.body.style.background=color;
+    btn.style.background=color;
+    txt.style.borderColor=color;
+}
+
+ </script>
+</body>
+</html>
